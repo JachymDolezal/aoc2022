@@ -17,7 +17,6 @@ fn main() {
                 if !num.eq(""){
                     let calory: u64 = num.parse().unwrap();
                     if calory == 10000{
-                        println!("hit");
                     }
                     calorysum = calorysum + calory;
                 } else{
