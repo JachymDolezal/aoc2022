@@ -6,11 +6,9 @@ use std::path::Path;
 A X rock 1
 B Y paper 2
 C Z scissors 3
-
 */
 
 /*
-
 */
 enum Play{
     Rock,
@@ -102,6 +100,7 @@ fn game_result_2(player1: Play,player2: Play) -> u64 {
         Play::None => 0,
     }
 }
+
 
 fn main() {
     println!("Day 2 solution");
